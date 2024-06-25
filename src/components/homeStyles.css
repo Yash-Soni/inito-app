@@ -1,0 +1,13 @@
+.home-component {
+  background-color: aqua;
+  display: grid;
+  grid-template-areas: content imageContent;
+}
+
+#home-content {
+  grid-area: content;
+}
+
+#home-image {
+  grid-area: imageContent;
+}
