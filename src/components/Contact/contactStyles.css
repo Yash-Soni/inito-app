@@ -1,0 +1,43 @@
+.contact-comp {
+  display: grid;
+  grid-template-areas: "";
+  background: #112D35;
+  color: #fff;
+  display: grid;
+  grid-template-areas: "one two three four";
+}
+
+.contact-group {
+  margin-right: 50px;
+  width: 200px;
+}
+
+.contact-head{
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.contact-body {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.contact-comp img {
+  color: #fff;
+}
+
+#body-1 {
+  grid-area: one;
+}
+
+#body-2 {
+  grid-area: two;
+}
+
+#body-3 {
+  grid-area: three;
+}
+
+#body-4 {
+  grid-area: four;
+}

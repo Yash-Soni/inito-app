@@ -1,0 +1,30 @@
+.accordionContainer {
+  border: 1px solid;
+  border-radius: 10px;
+  width: 500px;
+  font-size: 18px;
+  font-weight: 700;
+  background: #F7F7FE;
+  margin-bottom: 8px;
+}
+
+.accordionButton {
+  border: none;
+  background-color: transparent;
+}
+
+.accordionDesc {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.faq-questions{
+  display: flex;
+  flex-direction: row;
+}
+
+.faq-header {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
