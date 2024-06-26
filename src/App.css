@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 .primary-btn {
   background: #1F94AA;
   color: #fff;
@@ -8,8 +10,10 @@
 }
 
 .App {
-  margin-left: 10%;
-  margin-right: 10%;
+  /* margin-left: 10%;
+  margin-right: 10%; */
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 50px;
 }
 
 .footer {
@@ -20,4 +24,63 @@
   align-items: center;
   justify-content: space-around;
   font-size: 12px;
+}
+
+.home-component {
+  width: 100vw;
+  background-image: url('./images/Header-bg-01 2.png');
+}
+
+.blog-page {
+  background: #E1F4FA;
+  width: 100vw;
+}
+
+.navbar-items {
+  position: fixed;
+  top: 0;
+  display: grid;
+  grid-template-areas: ". . . inito-icon . . . . . about blog faq contact inito-btn . ";
+  background-color: #fff;
+  z-index: 10;
+  width: 100%;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-items a {
+  /* list-style: none; */
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+
+#about {
+  grid-area: about;
+}
+
+#inito-icon {
+  grid-area: inito-icon;
+}
+
+#blog {
+  grid-area: blog;
+}
+
+#faq {
+  grid-area: faq;
+}
+
+#contact {
+  grid-area: contact;
+}
+
+#inito-btn {
+  grid-area: inito-btn;
 }

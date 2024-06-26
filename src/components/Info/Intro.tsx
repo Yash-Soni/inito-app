@@ -1,9 +1,10 @@
 import React from 'react'
-import './blogStyles.css'
+import './infoStyles.css'
+import '../Blog/blogStyles.css'
 
 const Intro = () => {
   return (
-    <div>
+    <div className='blog-intro'>
       <p className='title-header-1 '>
         The only fertility kit you will ever need
       </p>
@@ -11,7 +12,7 @@ const Intro = () => {
         Most ovulation tests predict your fertile days by tracking Estrogen and Luteinizing Hormone (LH), but fail to measure the hormone that actually confirms your ovulation and supports pregnancy: <b>Progesterone.</b>
       </p>
 
-      <p className='intro-subheader'>
+      <p className='sub-header'>
         What makes Inito different?
       </p>
       <p>

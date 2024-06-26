@@ -1,25 +1,21 @@
-.home-component {
-  background-image: url('../images/Header-bg-01 2.png');
+.main-content {
+  width: 70%;
+  height: 80vh;
+  margin-left: 20%;
+  padding-top: 5%;
   display: grid;
   grid-template-areas: 
-                      "content imageContent"
-                      "brands .";
+                      "content imageContent ."
+                      ". brands .";
 }
 
 #home-content {
   grid-area: content;
-  width: 520px;
-  margin-top: 100px;
-  margin-left: 150px;
-  padding-top: 50px;
-  padding-bottom: 75px;
-}
-
-.display-content {
-  width: 80%;
+  width: 70%;
 }
 
 #home-images {
+  margin-left: -5%;
   grid-area: imageContent;
   display: grid;
   grid-template-areas:
@@ -30,23 +26,56 @@
   position: relative;
 }
 
-#brands {
+#brand {
   grid-area: brands;
+}
+
+.brand-text {
+  text-align: center;
+  color: #C4C4C4;
+  font-weight: 700;
+}
+
+.brands {
+  display: grid;
+  grid-template-areas: ". . . bloomberg forbes week washington entrepreneur . . .";
+}
+
+#bloomberg {
+  grid-area: bloomberg;
+}
+
+#forbes {
+  grid-area: forbes;
+}
+
+#week{
+  grid-area: week;
+}
+
+#washington{
+  grid-area: washington;
+}
+
+#entrepreneur{
+  grid-area: entrepreneur;
 }
 
 #mobile-img {
   grid-area: mobImg;
-  width: 100%;
-  height: 100%;
+  width: 120%;
+  height: 120%;
   object-fit: cover;
-  /* position: absolute; */
-  /* left: -200px; */
+  margin-left: -25%;
+  margin-top: -10%;
 }
 
 #small-vec {
   grid-area: vecOne;
   position: absolute;
   z-index: 2;
+  width: 75px;
+  height: 75px;
 }
 
 #big-vec {
