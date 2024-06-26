@@ -27,7 +27,7 @@
 .blog-content-1 {
   font-size: 15px;
   font-weight: 500;
-
+  white-space: pre-line;
 }
 
 .inito-card {
@@ -40,6 +40,10 @@
   grid-template-areas: "one two";
   background-color: #fff;
   text-align: start;
+}
+
+.reversed {
+  grid-template-areas: "two one";
 }
 
 #card-text-content {

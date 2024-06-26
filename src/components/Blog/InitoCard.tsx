@@ -1,10 +1,10 @@
 import React from 'react'
 import './blogStyles.css'
 
-const InitoCard = ({data}) => {
+const InitoCard = ({data, reverse=false}) => {
   
   return (
-    <div className={`inito-card `}>
+    <div className={`inito-card ${reverse ? 'reversed' : ''}`}>
       <div id='card-text-content'>
         <p className='title-header-2'>{data.title}</p>
         <p className='blog-content-1'>{data.content}</p>

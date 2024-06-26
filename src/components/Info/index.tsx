@@ -4,7 +4,7 @@ import InitoBenefit from './InitoBenefit.tsx'
 
 const Info = () => {
   return (
-    <div className='inito-info'>
+    <div className='block-header'>
       <Intro />
       <InitoBenefit />
     </div>

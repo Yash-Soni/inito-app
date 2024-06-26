@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import AccordionCard from './AccordionCard.tsx'
+import React from 'react'
 import { faqData } from '../../data/faqData.ts'
 import AccordionComp from './AccordionComp.tsx'
 
@@ -8,7 +7,7 @@ const FAQ = () => {
   const secondHalf = faqData.slice(4, 8)
   
   return (
-    <div>
+    <div className='block-header'>
       <span className='faq-header'>Your top questions, answered</span>
       <div className='faq-questions'>
         <AccordionComp item={firstHalf} />

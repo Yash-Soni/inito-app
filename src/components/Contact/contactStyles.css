@@ -1,7 +1,15 @@
 .contact-comp {
+  background: #112D35;
+  width: 100vw;
+}
+
+.contact-container {
+  width: 60%;
+  text-align: center;
+  margin-left: 20%;
   display: grid;
   grid-template-areas: "";
-  background: #112D35;
+  text-align: start;
   color: #fff;
   display: grid;
   grid-template-areas: "one two three four";
@@ -40,7 +48,7 @@
 
 #body-4 {
   grid-area: four;
-  
+  width: 100%;
 }
 
 #body-4 img {
