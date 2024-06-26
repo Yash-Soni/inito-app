@@ -9,7 +9,8 @@ import img4 from '../images/image 12.png'
 import img5 from '../images/image 13.png'
 import FAQ from './FAQ/index.tsx'
 import Contact from './Contact/index.tsx'
-
+import Blog from './Blog/index.tsx'
+import Footer from './Footer.jsx'
 
 const Home = () => {
   return (
@@ -42,6 +43,7 @@ const Home = () => {
 
       </div>
 
+      <Blog />
       <FAQ />
       <Contact />
     </>

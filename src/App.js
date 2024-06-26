@@ -6,18 +6,23 @@ import About from './components/About/index.tsx';
 import Contact from './components/Contact/index.tsx';
 import Blog from './components/Blog/index.tsx';
 import FAQ from './components/FAQ/index.tsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
     <>
       <Navbar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='about' element={<About />} />
-        <Route path='contact' element={<Contact />} />
-        <Route path='blog' element={<Blog />} />
-        <Route path='faq' element={<FAQ />} />
-      </Routes>
+      <div className='App'>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='about' element={<About />} />
+          <Route path='contact' element={<Contact />} />
+          <Route path='blog' element={<Blog />} />
+          <Route path='faq' element={<FAQ />} />
+        </Routes>
+        <Footer />
+      </div>
+
     </>
   );
 }

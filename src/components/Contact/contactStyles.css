@@ -40,4 +40,9 @@
 
 #body-4 {
   grid-area: four;
+  
+}
+
+#body-4 img {
+  margin-right: 4px;
 }

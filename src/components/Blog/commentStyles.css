@@ -1,0 +1,20 @@
+.comment-box {
+  width: 1000px;
+  padding: 10px 20px;
+  background: #F7F7FE;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.comment {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  /* border-radius: 25%; */
+  margin-right: 10px;
+}

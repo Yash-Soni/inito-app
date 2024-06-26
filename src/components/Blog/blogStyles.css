@@ -1,0 +1,75 @@
+.blog-page {
+  background: #E1F4FA;
+}
+
+.title-header-1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.title-header-2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.blog-content-1 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.inito-card {
+  width: 800px;
+  border: none;
+  border-radius: 20px;
+  padding: 0 0 0 25px;
+  margin: 30px 35px;
+  display: grid;
+  grid-template-areas: "one two";
+  background-color: #fff;
+}
+
+#card-text-content {
+  grid-area: one;
+  /* width: 40%; */
+}
+
+#card-image-content {
+  grid-area: two;
+  /* width: 50%; */
+}
+
+.rounded-image {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.benefits-content {
+  width: 1024px;
+  background: #B4E4F273;
+  border-radius: 20px;
+  display: grid;
+  grid-template-areas: 
+                      "mobImg mobText"
+                      "graphText graphImg";
+}
+
+.mob-img {
+  width: 445px;
+  height: 445px;
+  background: #B4E4F2;
+  text-align: center;
+  border-radius: 15px;
+  grid-area: mobImg;
+}
+
+.mob-text {
+  grid-area: mobText;
+}
+
+.graph-img {
+  grid-area: graphImg;
+}
+
+.graph-text {
+  grid-area: graphText;
+}
