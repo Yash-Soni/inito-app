@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/inito-app/static/css/main.bdaddd14.css",
-    "main.js": "/inito-app/static/js/main.8dcdfdbf.js",
+    "main.js": "/inito-app/static/js/main.ea633ffb.js",
     "static/js/453.7cda7ace.chunk.js": "/inito-app/static/js/453.7cda7ace.chunk.js",
     "static/media/ladyImg.png": "/inito-app/static/media/ladyImg.920d6899d829963c61c2.png",
     "static/media/iPhone 13 Pro Mockup Vol 03 Floating iphone with inito 2.png": "/inito-app/static/media/iPhone 13 Pro Mockup Vol 03 Floating iphone with inito 2.6e868e427d44eb08fa8d.png",
@@ -17,11 +17,11 @@
     "static/media/facebook.svg": "/inito-app/static/media/facebook.bcd27169cac145b358e1657237c39adb.svg",
     "index.html": "/inito-app/index.html",
     "main.bdaddd14.css.map": "/inito-app/static/css/main.bdaddd14.css.map",
-    "main.8dcdfdbf.js.map": "/inito-app/static/js/main.8dcdfdbf.js.map",
+    "main.ea633ffb.js.map": "/inito-app/static/js/main.ea633ffb.js.map",
     "453.7cda7ace.chunk.js.map": "/inito-app/static/js/453.7cda7ace.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bdaddd14.css",
-    "static/js/main.8dcdfdbf.js"
+    "static/js/main.ea633ffb.js"
   ]
 }
