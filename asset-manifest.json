@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/inito-app/static/css/main.7c2907e4.css",
-    "main.js": "/inito-app/static/js/main.6c856476.js",
+    "main.css": "/inito-app/static/css/main.a1b4dc97.css",
+    "main.js": "/inito-app/static/js/main.0b4e6494.js",
     "static/js/453.7cda7ace.chunk.js": "/inito-app/static/js/453.7cda7ace.chunk.js",
     "static/media/ladyImg.png": "/inito-app/static/media/ladyImg.920d6899d829963c61c2.png",
     "static/media/iPhone 13 Pro Mockup Vol 03 Floating iphone with inito 2.png": "/inito-app/static/media/iPhone 13 Pro Mockup Vol 03 Floating iphone with inito 2.6e868e427d44eb08fa8d.png",
@@ -20,12 +20,12 @@
     "static/media/insta.svg": "/inito-app/static/media/insta.69a361d7e451808e8951e7ed97f9018c.svg",
     "static/media/facebook.svg": "/inito-app/static/media/facebook.bcd27169cac145b358e1657237c39adb.svg",
     "index.html": "/inito-app/index.html",
-    "main.7c2907e4.css.map": "/inito-app/static/css/main.7c2907e4.css.map",
-    "main.6c856476.js.map": "/inito-app/static/js/main.6c856476.js.map",
+    "main.a1b4dc97.css.map": "/inito-app/static/css/main.a1b4dc97.css.map",
+    "main.0b4e6494.js.map": "/inito-app/static/js/main.0b4e6494.js.map",
     "453.7cda7ace.chunk.js.map": "/inito-app/static/js/453.7cda7ace.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c2907e4.css",
-    "static/js/main.6c856476.js"
+    "static/css/main.a1b4dc97.css",
+    "static/js/main.0b4e6494.js"
   ]
 }
