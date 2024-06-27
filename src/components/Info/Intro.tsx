@@ -2,7 +2,7 @@ import React from 'react'
 import './infoStyles.css'
 import '../Blog/blogStyles.css'
 
-const Intro = () => {
+const Intro: React.FC = () => {
   return (
     <div className='blog-intro'>
       <p className='title-header-1 '>

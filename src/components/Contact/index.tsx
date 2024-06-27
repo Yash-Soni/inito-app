@@ -6,7 +6,7 @@ import linkedin from '../../logos/linkedin.svg'
 import youtube from '../../logos/youtube.svg'
 
 
-const Contact = () => {
+const Contact: React.FC = () => {
   return (
     <div className='contact-comp'>
       <div className='contact-container'>

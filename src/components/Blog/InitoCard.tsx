@@ -1,7 +1,19 @@
 import React from 'react'
 import './blogStyles.css'
 
-const InitoCard = ({data, reverse=false}) => {
+interface DataProps {
+  title: string;
+  content: string;
+  body: string;
+  imgSrc: string;
+}
+
+interface InitoCardProps {
+  data: DataProps;
+  reverse?: boolean;
+}
+
+const InitoCard: React.FC<InitoCardProps> = ({data, reverse=false}) => {
   
   return (
     <div className={`inito-card ${reverse ? 'reversed' : ''}`}>

@@ -3,7 +3,7 @@ import './infoStyles.css'
 import mobImg from '../../images/1- iPhone 12 Mockup-ovconfirmed 2.png'
 import graphImg from '../../images/image 14 1.png'
 
-const InitoBenefit = () => {
+const InitoBenefit: React.FC = () => {
   return (
     <div className='benefits-content'>
       {/* <div className='content-one'> */}

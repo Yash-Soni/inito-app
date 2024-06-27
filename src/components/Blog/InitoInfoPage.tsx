@@ -4,7 +4,7 @@ import ladyImg from '../../images/ladyImg.png'
 import testScreen from '../../images/1- iPhone 12 Mockup - test required home screen 1.png'
 import dataImg from '../../images/Background.png'
 
-const InitoInfoPage = () => {
+const InitoInfoPage: React.FC = () => {
   const firstCardData = {
     title: 'Adapts to your irregular cycle',
     content: 'Most ovulation kits have a set value or a threshold, making them likely to give a false read if your hormones fall outside the average range.', 
@@ -35,6 +35,7 @@ const InitoInfoPage = () => {
       <p className='title-header-1'>
         Why Inito is the smarter<br/>
         way to get pregnant</p>
+        {/* cards to display different set of data */}
       <InitoCard data={firstCardData} />
       <InitoCard data={secondCardData} reverse/>
       <InitoCard data={thirdCardData} />

@@ -1,7 +1,14 @@
 import React from 'react'
 import './faqStyles.css'
 
-const AccordionCard = ({ title, description, isOpen, handleClick }) => {
+interface AccordionCardProps {
+  title: string;
+  description: string;
+  isOpen: boolean;
+  handleClick: () => void;
+}
+
+const AccordionCard: React.FC<AccordionCardProps> = ({ title, description, isOpen, handleClick }) => {
   return (
     <div className='accordionContainer'>
       <div className='accordionBox' onClick={() => handleClick()}>

@@ -2,8 +2,13 @@
   width: 1000px;
   padding: 10px 20px;
   background: #F7F7FE;
-  border: 1px solid black;
   border-radius: 20px;
+  align-items: start;
+  text-align: left;
+}
+
+.comment-container {
+  margin-bottom: 40px;
 }
 
 .comment {
@@ -14,7 +19,7 @@
 .comment-details {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  gap: 20px;
   align-items: center;
 }
 

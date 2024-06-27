@@ -1,8 +1,8 @@
 import React from 'react'
-import { faqData } from '../../data/faqData.ts'
+import { faqData } from '../../data/appData.ts'
 import AccordionComp from './AccordionComp.tsx'
 
-const FAQ = () => {
+const FAQ: React.FC = () => {
   const firstHalf = faqData.slice(0, 4)
   const secondHalf = faqData.slice(4, 8)
   

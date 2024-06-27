@@ -5,8 +5,9 @@ const AccordionComp = ({item}) => {
   const [accordionIndex, setAccordionIndex] = useState<number>(-1)
   return (
     <div>
-      {item.map((question, index) => (
+      {item.map((question: any, index: any) => (
         <AccordionCard 
+          key={question.id}
           title={question.title} 
           description={question.description} 
           isOpen={index===accordionIndex} 

@@ -10,8 +10,9 @@ import img5 from '../images/image 13.png'
 import FAQ from './FAQ/index.tsx'
 import Contact from './Contact/index.tsx'
 import Blog from './Blog/index.tsx'
-import Footer from './Footer.jsx'
 import Info from './Info/index.tsx'
+import Comment from './Comment/Comment.tsx'
+import InitoApp from './InitoApp/index.tsx'
 
 const Home = () => {
   return (
@@ -19,7 +20,7 @@ const Home = () => {
       <div className='home-component'>
         <div className='main-content'>
           <div id='home-content'>
-            <p id='rating-content'>{[1,2,3,4,5].map((_) => <span className='stars'>&#9733;</span>)} TRUSTED BY 20,000+ COUPLES</p>
+            <p id='rating-content'>{[1,2,3,4,5].map((_, index) => <span key={index} className='stars'>&#9733;</span>)} TRUSTED BY 20,000+ COUPLES</p>
             <div className='display-content'>
               <p id='major-content'>Track your fertility hormones at home, in 10 minutes</p>
               <p className='para-text'>Get accurate results of <b>Estrogen, LH, Progesterone metabolite PdG and FSH</b> with Inito, the all-in-one, FDA-registered fertility monitor.</p>
@@ -48,6 +49,8 @@ const Home = () => {
 
         <Info />
         <Blog />
+        <InitoApp />
+        <Comment />
         <FAQ />
         <Contact />
     </>
