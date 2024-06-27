@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/inito-app/static/css/main.bdaddd14.css",
+    "main.js": "/inito-app/static/js/main.8dcdfdbf.js",
+    "static/js/453.7cda7ace.chunk.js": "/inito-app/static/js/453.7cda7ace.chunk.js",
+    "static/media/ladyImg.png": "/inito-app/static/media/ladyImg.920d6899d829963c61c2.png",
+    "static/media/iPhone 13 Pro Mockup Vol 03 Floating iphone with inito 2.png": "/inito-app/static/media/iPhone 13 Pro Mockup Vol 03 Floating iphone with inito 2.6e868e427d44eb08fa8d.png",
+    "static/media/Header-bg-01 2.png": "/inito-app/static/media/Header-bg-01 2.67f24207f29a351d51f6.png",
+    "static/media/image 14 1.png": "/inito-app/static/media/image 14 1.56a1641e9b8ea3e9b7c1.png",
+    "static/media/1- iPhone 12 Mockup-ovconfirmed 2.png": "/inito-app/static/media/1- iPhone 12 Mockup-ovconfirmed 2.6807ad25997da09607be.png",
+    "static/media/Background.png": "/inito-app/static/media/Background.42cda938e3cd8e5071f0.png",
+    "static/media/1- iPhone 12 Mockup - test required home screen 1.png": "/inito-app/static/media/1- iPhone 12 Mockup - test required home screen 1.3edcdb90a0d08345c9fc.png",
+    "static/media/header.svg": "/inito-app/static/media/header.38465e735e8caf240f58626d04793be0.svg",
+    "static/media/youtube.svg": "/inito-app/static/media/youtube.2483351413207454f89b498718f2b710.svg",
+    "static/media/linkedin.svg": "/inito-app/static/media/linkedin.d39ab4a923b51a19397d081bea628555.svg",
+    "static/media/insta.svg": "/inito-app/static/media/insta.69a361d7e451808e8951e7ed97f9018c.svg",
+    "static/media/facebook.svg": "/inito-app/static/media/facebook.bcd27169cac145b358e1657237c39adb.svg",
+    "index.html": "/inito-app/index.html",
+    "main.bdaddd14.css.map": "/inito-app/static/css/main.bdaddd14.css.map",
+    "main.8dcdfdbf.js.map": "/inito-app/static/js/main.8dcdfdbf.js.map",
+    "453.7cda7ace.chunk.js.map": "/inito-app/static/js/453.7cda7ace.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdaddd14.css",
+    "static/js/main.8dcdfdbf.js"
+  ]
+}
