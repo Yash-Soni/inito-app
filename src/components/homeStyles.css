@@ -124,14 +124,19 @@
   }
 
   #home-images {
+    width: 80%;
     grid-template-areas:
-                       ". vecTwo"
-                       ". mobImg "
+                       ". . vecTwo"
+                       ". mobImg . "
                        ". mobImg .";
   }
 
   #small-vec {
     display: none;
+  }
+
+  #big-vec {
+    width: 30vw;
   }
 
   .brands {
@@ -141,7 +146,6 @@
                           "forbes week"
                           "washington entrepreneur";
   }
-
 }
 
 #bloomberg {

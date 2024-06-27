@@ -76,9 +76,14 @@
   }
 
   .graph-text {
-    width: 80%;
+    width: 85%;
+    text-align: start;
     margin-left: 5%;
     margin-right: 5%;
+  }
+
+  .graph-image {
+    width: 100%;
   }
 
   .info-container {

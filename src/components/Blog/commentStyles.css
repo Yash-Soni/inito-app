@@ -11,10 +11,37 @@
   font-weight: 500;
 }
 
+.comment-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .circle {
-  width: 20px;
-  height: 20px;
+  width: 8px;
+  height: 8px;
   border: 1px solid black;
-  /* border-radius: 25%; */
+  background-color: rgb(61, 61, 61);
+  color: black;
+  border-radius: 50%;
   margin-right: 10px;
+  cursor: pointer;
+  display: inline-block;
+  align-items: center;
+}
+
+.active {
+  background-color: aqua;
+}
+
+@media screen and (max-width: 600px) {
+  .comment-container {
+    width: 80%;
+  }
+
+  .comment-box {
+    max-width: 100%;
+    margin-left: 15%;
+  }
 }

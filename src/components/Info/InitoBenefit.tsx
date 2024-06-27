@@ -32,7 +32,7 @@ const InitoBenefit = () => {
           </div>
         </div>
         <div className='graph-img'>
-          <img src={graphImg} alt='graph image' />
+          <img src={graphImg} alt='graph image' className='graph-image' />
         </div>
       {/* </div> */}
     </div>
