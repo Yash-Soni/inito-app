@@ -11,7 +11,7 @@ const InitoApp: React.FC = () => {
         <p className='title-header-1'>A fertility lab at
         your fingertips</p>
         <p className='blog-content-1'>Easy-to-read fertility diagnostic results directly on your iPhone¹, in just 10 minutes.</p>
-        <button className='primary-btn'>Get the Inito Kit</button>
+        <button className='primary-btn inito-kit'>Get the Inito Kit</button>
         <p className='content-note'>* The Inito Fertility Monitor currently supports iPhone 7 and up. Android phones are not supported at the moment.</p>
         <button className='app-store-button'>🍎 Download on the App Store</button>
       </div>

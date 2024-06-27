@@ -72,3 +72,25 @@
   position: absolute;
   right: 10px;
 }
+
+@media screen and (max-width: 600px) {
+
+  .inito-app {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inito-kit, .content-note, .app-store-button {
+    display: none;
+  }
+
+  .steps-content { 
+    grid-template-areas: 
+                        "one"
+                        "two"
+                        "three"
+                        "four";
+  }
+}
