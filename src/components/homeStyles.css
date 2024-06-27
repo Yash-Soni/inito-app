@@ -36,29 +36,14 @@
   font-weight: 700;
 }
 
-.brands {
-  display: grid;
-  grid-template-areas: ". . . bloomberg forbes week washington entrepreneur . . .";
+#major-content {
+  font-size: 48px;
+  font-weight: 700;
 }
 
-#bloomberg {
-  grid-area: bloomberg;
-}
-
-#forbes {
-  grid-area: forbes;
-}
-
-#week{
-  grid-area: week;
-}
-
-#washington{
-  grid-area: washington;
-}
-
-#entrepreneur{
-  grid-area: entrepreneur;
+.para-text{
+  font-size: 16px;
+  font-weight: 500;
 }
 
 #mobile-img {
@@ -94,13 +79,87 @@
   color: #1F94AA;
 }
 
-#major-content {
-  font-size: 48px;
-  font-weight: 700;
+@media screen and (min-width: 500px) {
+  .brands {
+    width: 60%;
+    margin-left: 20%;
+    display: grid;
+    grid-template-areas: "bloomberg forbes week washington entrepreneur";
+  }
 }
 
-.para-text{
-  font-size: 16px;
-  font-weight: 500;
+@media screen and (max-width: 600px) {
+  .main-content {
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+                        "content"
+                        "imageContent"
+                        "initoBtn"
+                        "brands";
+  }
+
+  #home-content {
+    width: 55%;
+    margin-right: 10%;
+  }
+
+  #major-content {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #rating-content {
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .para-text{
+    font-size: 12px;
+  }
+
+  #inito-work-btn {
+    grid-area: initoBtn;
+  }
+
+  #home-images {
+    grid-template-areas:
+                       ". vecTwo"
+                       ". mobImg "
+                       ". mobImg .";
+  }
+
+  #small-vec {
+    display: none;
+  }
+
+  .brands {
+    display: grid;
+    grid-template-areas: 
+                          "bloomberg bloomberg"
+                          "forbes week"
+                          "washington entrepreneur";
+  }
+
 }
 
+#bloomberg {
+  grid-area: bloomberg;
+}
+
+#forbes {
+  grid-area: forbes;
+}
+
+#week{
+  grid-area: week;
+}
+
+#washington{
+  grid-area: washington;
+}
+
+#entrepreneur{
+  grid-area: entrepreneur;
+}

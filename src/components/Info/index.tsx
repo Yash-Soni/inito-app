@@ -1,10 +1,11 @@
 import React from 'react'
 import Intro from './Intro.tsx'
 import InitoBenefit from './InitoBenefit.tsx'
+import './infoStyles.css'
 
 const Info = () => {
   return (
-    <div className='block-header'>
+    <div className='block-header info-container'>
       <Intro />
       <InitoBenefit />
     </div>

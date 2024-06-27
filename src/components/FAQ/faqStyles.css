@@ -38,3 +38,13 @@
   font-weight: 700;
   text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+  .faq-questions {
+    width: 50%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+
+  }
+}

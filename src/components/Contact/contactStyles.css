@@ -54,3 +54,17 @@
 #body-4 img {
   margin-right: 4px;
 }
+
+@media screen and (max-width: 600px) {
+  .contact-container {
+    grid-template-areas:  
+                          "four"
+                          "one"
+                          "two"
+                          "three"; 
+  }
+
+  .contact-body {
+    display: none;
+  }
+}

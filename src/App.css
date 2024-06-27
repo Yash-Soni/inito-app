@@ -36,11 +36,6 @@
   background-image: url('./images/Header-bg-01 2.png');
 }
 
-.blog-page {
-  background: #E1F4FA;
-  width: 100vw;
-}
-
 .navbar-items {
   position: fixed;
   top: 0;
@@ -50,6 +45,45 @@
   z-index: 10;
   width: 100%;
   align-items: center;
+}
+
+
+@media screen and (max-width: 600px) {
+  .home-component {
+    width: 100vw;
+  }
+
+  .App {
+    padding-top: 60px;
+  }
+
+  .navbar-items {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    grid-template-areas: " inito-icon  inito-btn ";
+    place-items: center;
+  }
+
+  .navbar-items a {
+    display: none;
+  }
+  
+  #inito-icon {
+    display: initial;
+  }
+
+  .block-header {
+    display: flex;
+    flex-direction: column;
+    align-items: start
+  }
+}
+
+.blog-page {
+  background: #E1F4FA;
+  width: 100vw;
 }
 
 .links {

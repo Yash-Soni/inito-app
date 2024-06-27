@@ -60,3 +60,46 @@
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
+
+@media screen and (max-width: 600px) {
+  .title-header-1 {
+    font-size: 24px;
+    line-height: 25px;
+    text-align: center;
+    /* margin-left: 5%; */
+  }
+
+  .sub-header {
+    font-size: 16px;
+  }
+
+  .blog-content-1 {
+    font-size: 13px;
+  }
+
+  .blog-content {
+    width: 80%;
+    text-align: center;
+
+    margin-left: 0;
+  }
+
+  #card-image-content {
+    margin: 0;
+    padding: 0;
+  }
+
+  .inito-card {
+    margin-left: 0;
+    background-color: transparent;
+    width: 100vw;
+    grid-template-areas: 
+                        "one"
+                        "two";
+  }
+
+  .rounded-image {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+}

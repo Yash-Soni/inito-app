@@ -25,7 +25,7 @@ const Home = () => {
               <p className='para-text'>Get accurate results of <b>Estrogen, LH, Progesterone metabolite PdG and FSH</b> with Inito, the all-in-one, FDA-registered fertility monitor.</p>
             </div>
 
-            <button className='primary-btn'>How does Inito work?</button>
+            <button className='primary-btn' id='inito-work-btn'>How does Inito work?</button>
           </div>
           <div id='home-images'>
             <img src={smallVec} alt='small-vec' id='small-vec' />

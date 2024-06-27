@@ -38,7 +38,6 @@ const InitoInfoPage = () => {
       <InitoCard data={firstCardData} />
       <InitoCard data={secondCardData} reverse/>
       <InitoCard data={thirdCardData} />
-
     </div>
   )
 }
